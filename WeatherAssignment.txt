@@ -1,0 +1,14 @@
+This shareable assignment was composed by the client team, and should be fairly easy to do for a seasoned Java developer.
+ 
+The National Oceanic and Atmospheric Administration (NOAA) provides a free web service REST API to get the weather forecast for any point in North America. The Web Service guide is documented here https://www.weather.gov/documentation/services-web-api.
+ 
+The goal of this assignment is to create a Java stand alone program that takes one command line parameter - a latitude longitude pair. Using the API provided, get the "Point" corresponding to this coordinate, and get the forecast and print the detailed forecast for the next five days. Please feel free to use the internet to solve this problem.
+ 
+Relevant API's:
+Points API
+https://api.weather.gov/points/{latitude},{longitude}
+ 
+Forecast API
+https://api.weather.gov/gridpoints/{office}/{grid X},{grid Y}/forecast
+
+
